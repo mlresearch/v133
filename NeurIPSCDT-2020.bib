@@ -1,0 +1,207 @@
+@proceedings{NeurIPSCDT-2020,
+    booktitle = {Proceedings of the NeurIPS 2020 Competition and Demonstration Track},
+    name = {NeurIPS 2020 Competition and Demonstration Track},
+    shortname = {NeurIPSCDT},
+    editor = {Hugo Jair Escalante and Katja Hofmann},
+    volume = {133},
+    year = {2021},
+    start = {2020-12-06},
+    end = {2020-12-12},
+    published = {2021-08-07},
+    url = {https://neurips.cc/Conferences/2020/CompetitionTrack},
+    address = {Virtual},
+    shortname = {NeurIPSCDT}
+}
+
+
+@inproceedings{escalante21,
+  author    = {Hugo Jair Escalante and Katja Hofmann},
+  title     = {{NeurIPS 2020} Competition and Demonstration Track: Revised selected papers},
+  booktitle = {Proceedings of the NeurIPS 2020 Competition and Demonstration Track},
+  pages     = {1--2},
+  year      = {2021},
+  abstract = {This volume compiles a selection of papers associated with the fourth edition of the Demonstration and Competition Track at NeurIPS 2020. The track comprised  16 competitions and 20 demonstrations. Competition and demonstration proposals were subject to a strict reviewing process to ensure the quality of the accepted events. After a selective process, the accepted  competitions and demonstrations were featured at the NeurIPS 2020 main conference. A wide diversity of machine learning topics were covered with competitions and demonstrations. The latter included innovative ways of interacting with participants due to the virtual format of NeurIPS2020. },
+}
+
+
+@inproceedings{turner21,
+  author    = {Ryan Turner and David Eriksson and Michael McCourt and Juha Kiili and Eero Laaksonen and Zhen Xu and Isabelle Guyon},
+  title     = {Bayesian Optimization is Superior to Random Search for Machine Learning Hyperparameter Tuning: Analysis of the Black-Box Optimization Challenge 2020},
+  booktitle = {Proceedings of the NeurIPS 2020 Competition and Demonstration Track},
+  pages     = {3--26},
+  year      = {2021},
+  abstract = {This paper presents the results and insights from the black-box optimization (BBO) challenge at NeurIPS2020 which ran from July--October, 2020. The challenge emphasized the importance of evaluating derivative-free optimizers for tuning the hyperparameters of machine learning models. This was the first black-box optimization challenge with a machine learning emphasis. It was based on tuning (validation set) performance of standard machine learning models on real datasets.
+This competition has widespread impact as black-box optimization (e.g., Bayesian optimization) is relevant for hyperparameter tuning in almost every machine learning project as well as many applications outside of machine learning. The final leaderboard was determined using the optimization performance on held-out (hidden) objective functions, where the optimizers ran without human intervention. Baselines were set using the default settings of several open source black-box optimization packages as well as random search.},
+}
+
+
+@inproceedings{agarwal21a,
+  author    = {Anish Agarwal and Abdullah Alomar and Devavrat Shah},
+  title     = {tspDB: Time Series Predict DB},
+  booktitle = {Proceedings of the NeurIPS 2020 Competition and Demonstration Track},
+  pages     = {27--56},
+  year      = {2021},
+  abstract = {A major bottleneck of the current Machine Learning (ML) workflow is the time consuming, error prone engineering required to get data from a datastore or a database (DB) to the point an ML algorithm can be applied to it.  This is further exacerbated since ML algorithms are now trained on large volumes of data, yet we need predictions in real-time, especially in a variety of time-series applications such as finance and real-time control systems.  Hence, we explore the feasibility of directly integrating prediction functionality on top of a data store or DB.  Such a system ideally:  (i) provides an intuitive prediction query interface which alleviates the unwieldy data engineering;  (ii) provides state-of-the-art statistical accuracy while ensuring incremental model update, low model training time  and low latency for making predictions.  As the main contribution we explicitly instantiate a proof-of-concept, tspDB which directly integrates with PostgreSQL.  We rigorously test tspDB's statistical and computational performance against the state-of-the-art time series algorithms, including a Long-Short-Term-Memory (LSTM) neural network and DeepAR (industry standard deep learning library by Amazon).  Statistically, on standard time series benchmarks, tspDB outperforms LSTM and DeepAR with 1.1-1.3x higher relative accuracy.  Computationally, tspDB is 59-62x and 94-95x faster compared to LSTM and DeepAR in terms of median ML model training time and prediction query latency, respectively.  Further, compared to PostgreSQL's bulk insert time and its SELECT query latency, tspDB is
+slower only by 1.3x and 2.6x respectively.  That is, tspDB is a real-time prediction system in that its model training / prediction query time is similar to just inserting, reading data from a DB. As an algorithmic contribution, we introduce an incremental multivariate matrix factorization based time series method, which tspDB is built off. We show this method also allows one to produce reliable prediction intervals by accurately estimating the time-varying variance of a time series, thereby addressing an important problem in time series analysis.},
+}
+
+@inproceedings{madadi21,
+  author    = {Meysam Madadi and Hugo Bertiche and Wafa Bouzouita and  Isabelle Guyon and Sergio Escalera},
+  title     = {Learning Cloth Dynamics: 3D+Texture Garment Reconstruction Benchmark},
+  booktitle = {Proceedings of the NeurIPS 2020 Competition and Demonstration Track},
+  pages     = {57--76},
+  year      = {2021},
+  abstract = {Human avatars are important targets in many computer applications. Accurately tracking, capturing, reconstructing and animating the human body, face and garments in 3D are critical for human-computer interaction, gaming, special effects and virtual reality. In the past, this has required extensive manual animation. Regardless of the advances in human body and face reconstruction, still modeling, learning and analyzing human dynamics need further attention. In this paper we plan to push the research in this direction, e.g. understanding human dynamics in 2D and 3D, with special attention to garments. We provide a large-scale dataset (more than 2M frames) of animated garments with variable topology and type, calledCLOTH3D++. The dataset contains RGBA video sequences paired with its corresponding 3D data. We pay special care to garment dynamics and realistic rendering of RGB data, including lighting, fabric type and texture. With this dataset, we hold a competition at NeurIPS2020. We design three tracks so participants can compete to develop the best method to perform 3D garment reconstruction in a sequence from (1) 3D-to-3D garments, (2) RGB-to-3D garments, and (3) RGB-to-3D garments plus texture. We also provide a baseline method, based on graph convolutional networks, for each track. Baseline results show that there is a lot of room for improvements. However, due to the challenging nature of the problem, no participant could outperform the baselines.},
+}
+
+@inproceedings{sazanovich21,
+  author    = {Mikita Sazanovich and Anastasiya Nikolskaya and Yury Belousov and Aleksei Shpilman},
+  title     = {Solving Black-Box Optimization Challenge via Learning Search Space Partition for Local Bayesian Optimization},
+  booktitle = {Proceedings of the NeurIPS 2020 Competition and Demonstration Track},
+  pages     = {77--85},
+  year      = {2021},
+  abstract = {Black-box optimization is one of the vital tasks in machine learning, since it approximates real-world conditions, in that we do not always know all the properties of a given system, up to knowing almost nothing but the results. This paper describes our approach to solving the black-box optimization challenge at NeurIPS 2020 through learning search space partition for local Bayesian optimization. We describe the task of the challenge as well as our algorithm for low budget optimization that we named SPBOpt. We optimize the hyper-parameters of our algorithm for the competition finals using multi-task Bayesian optimization on results from the first two evaluation settings. Our approach has ranked third in the competition finals.},
+}
+
+
+@inproceedings{min21,
+  author    = {Sewon Min and Jordan Boyd-Graber and Chris Alberti and Danqi Chen and Eunsol Choi and Michael Collins and Kelvin Guu and Hannaneh Hajishirzi and Kenton Lee and Jennimaria Palomaki and Colin Raffel and Adam Roberts and Tom Kwiatkowski and  Patrick Lewis and    Yuxiang Wu and    Heinrich K\"uttler and   Linqing Liu and Pasquale Minervini  and    Pontus Stenetorp  and    Sebastian Riedel and    Sohee Yang and     Minjoon Seo and     Gautier Izacard and    Fabio Petroni and    Lucas Hosseini and    Nicola De Cao and     Edouard Grave and    Ikuya Yamada  and    Sonse Shimaoka  and    Masatoshi Suzuki and    Shumpei Miyawaki  and    Shun Sato and    Ryo Takahashi and    Jun Suzuki      and Martin Fajcik  and   Martin Docekal and  Karel Ondrej and Pavel Smrz and Hao Cheng  and Yelong Shen and  Xiaodong Liu and    Pengcheng He and    Weizhu Chen and Jianfeng Gao and Barlas Oguz and Xilun Chen and Vladimir Karpukhin and Stan Peshterliev and Dmytro Okhonko and Michael Schlichtkrull and Sonal Gupta and Yashar Mehdad and Wen-tau Yih},
+  title     = {NeurIPS 2020 EfficientQA Competition: Systems, Analyses and Lessons Learned},
+  booktitle = {Proceedings of the NeurIPS 2020 Competition and Demonstration Track},
+  pages     = {86--111},
+  year      = {2021},
+  abstract = {We review the EfficientQA competition from NeurIPS 2020. The competition focused on open-domain question answering (QA), where systems take natural language questions as input and return natural language answers.  The aim of the competition was to build systems that can predict correct answers while also satisfying strict on-disk memory budgets. These memory budgets were designed to encourage contestants to  explore  the  trade-off between storing retrieval corpora or the parameters of learned models. In this report, we describe the motivation and organization of the competition, review the best submissions, and analyze system predictions to inform a discussion of evaluation for open-domain QA.
+},
+}
+
+
+@inproceedings{marot21,
+  author    = {Antoine Marot and Benjamin Donnot  and Gabriel Dulac-Arnold and Adrian Kelly and Aidan O'Sullivan and Jan Viebahn and Mariette Awad and Isabelle Guyon and Patrick Panciatici and Camilo Romero},
+  title     = {Learning to run a Power Network Challenge: a Retrospective Analysis},
+  booktitle = {Proceedings of the NeurIPS 2020 Competition and Demonstration Track},
+  pages     = {112--132},
+  year      = {2021},
+  abstract = {Power networks, responsible for transporting electricity across large geographical regions, are complex infrastructures on which modern life critically depend. Variations in demand and production profiles, with increasing renewable energy integration, as well as the high voltage network technology, constitute a real challenge for human operators when optimizing electricity transportation while avoiding blackouts. Motivated to  investigate the potential of Artificial Intelligence methods in enabling adaptability in power network operation, we have designed a L2RPN challenge to encourage the development of reinforcement learning solutions to key problems present in the next-generation power networks. The NeurIPS 2020 competition was well received by the international community attracting over 300 participants worldwide.   The main contribution of this challenge is our proposed comprehensive 'Grid2Op' framework, and associated benchmark, which plays realistic sequential network operations scenarios. The Grid2Op framework, which is open-source and easily re-usable, allows users  to define new environments with its companion GridAlive ecosystem. Grid2Op relies on existing non-linear physical power network simulators and let users create a series of perturbations and challenges that are representative of two important problems: a) the uncertainty resulting from the increased use of unpredictable renewable energy sources, and b) the robustness required with contingent line disconnections.  In this paper, we give the highlights of the NeurIPS 2020 competition. We present the benchmark suite and analyse the winning solutions, including one super-human performance demonstration. We propose our organizational insights for a successful competition and conclude on open research avenues. Given the challenge success, we expect our work will foster research to create more sustainable solutions for power network operations. },
+}
+
+@inproceedings{hamilton21,
+  author    = { Mark Hamilton and Stephanie Fu and Mindren Lu and Johnny Bui and Darius Bopp and Zhenbang Chen and Felix Tran and Margaret Wang and Marina Rogers and Lei Zhang and Chris Hoder and William T. Freeman},
+  title     = {MosAIc: Finding Artistic Connections across Culture with Conditional Image Retrieval},
+  booktitle = {Proceedings of the NeurIPS 2020 Competition and Demonstration Track},
+  pages     = {133--155},
+  year      = {2021},
+  abstract = {We introduce MosAIc, an interactive web app that allows users to find pairs of semantically related artworks that span different cultures, media, and millennia. To create this application, we introduce Conditional Image Retrieval (CIR) which combines visual similarity search with user supplied filters or ``conditions''. This technique allows one to find pairs of similar images that span distinct subsets of the image corpus. We provide a generic way to adapt existing image retrieval data-structures to this new domain and provide theoretical bounds on our approach's efficiency. To quantify the performance of CIR systems, we introduce new datasets for evaluating CIR methods and show that CIR performs non-parametric style transfer. Finally, we demonstrate that our CIR data-structures can identify ``blind spots'' in Generative Adversarial Networks (GAN) where they fail to properly model the true data distribution.},
+}
+
+
+@inproceedings{desmond21,
+  author    = {Michael Desmond and Evelyn Duesterwald and Kristina Brimijoin and Michelle Brachman and Qian Pan},
+  title     = {Semi-Automated Data Labeling},
+  booktitle = {Proceedings of the NeurIPS 2020 Competition and Demonstration Track},
+  pages     = {156--169},
+  year      = {2021},
+  abstract = {Labeling data is often a tedious and error-prone activity. However, organizing the labeling experience as a human-machine collaboration has the potential to improve label quality and reduce human effort. In this paper we describe a semi-automated data labeling system which employs a predictive model to guide and assist the human labeler. The model learns by observing labeling decisions, and is used to recommend labels and automate basic functions in the labeling interface. Agreement between the labeler and the model is tracked and presented via a system of checkpoints. At each checkpoint the labeler has the opportunity to delegate the remainder of the labeling task to the model. },
+}
+
+@inproceedings{jiang21,
+  author    = {Yiding Jiang and Parth Natekar and  Manik Sharma and Dhruva Kashyap and  Natarajan Subramanyam and Carlos Lassance and Daniel M. Roy and  Gintare Karolina Dziugaite and Suriya Gunasekar and  Isabelle Guyon and Pierre Foret and Scott Yak and Hossein Mobahi and Behnam Neyshabur and Samy Bengio},
+  title     = {Methods and Analysis of The First Competition in Predicting Generalization of Deep Learning},
+  booktitle = {Proceedings of the NeurIPS 2020 Competition and Demonstration Track},
+  pages     = {170--190},
+  year      = {2021},
+  abstract = {Deep learning has been recently successfully applied to an ever larger number of problems, ranging from pattern recognition to complex decision making. However, several concerns have been raised, including guarantees of good generalization, which is of foremost importance. Despite numerous attempts, conventional statistical learning approaches fall short of providing a satisfactory explanation on why deep learning works. In a competition hosted at the Thirty-Fourth Conference on Neural Information Processing Systems (NeurIPS 2020), we invited the community to design robust and general complexity measures that can accurately predict the generalization of models. In this paper, we describe the competition design, the protocols, and the solutions of the top-three teams at the competition in details. In addition, we discuss the outcomes, common failure modes, and potential future directions for the competition.},
+}
+
+@inproceedings{wang21,
+  author    = {Zichao Wang and Angus Lamb and  Evgeny Saveliev and  Pashmina Cameron and  Jordan Zaykov and  Jose Miguel Hernandez-Lobato and Richard E. Turner and  Richard G. Baraniuk and Craig Barton, Eedi and Simon Peyton Jones and Simon Woodhead andCheng Zhang},
+  title     = {Results and Insights from Diagnostic Questions: The NeurIPS 2020 Education Challenge},
+  booktitle = {Proceedings of the NeurIPS 2020 Competition and Demonstration Track},
+  pages     = {191--205},
+  year      = {2021},
+  abstract = {This competition concerns educational diagnostic questions, which are pedagogically effective, multiple-choice questions (MCQs) whose distractors embody misconceptions. With a large and ever-increasing number of such questions, it becomes overwhelming for teachers to know which questions are the best ones to use for their students. We thus seek to answer the following question: how can we use data on hundreds of millions of answers to MCQs to drive automatic personalized learning in large-scale learning scenarios where manual personalization is infeasible?  Success in using MCQ data at scale helps build more intelligent, personalized learning platforms that ultimately improve the quality of education en masse. To this end, we introduce a new, large-scale, real-world dataset and formulate 4 data mining tasks on MCQs that mimic real learning scenarios and target various aspects of the above question in a competition setting at NeurIPS 2020. We report on our NeurIPS competition in which nearly 400 teams submitted approximately 4000 submissions, with encouragingly diverse and effective approaches to each of our tasks.},
+}
+
+
+@inproceedings{jordon21,
+  author    = { James Jordon and Daniel Jarrett and Evgeny Saveliev and Jinsung Yoon and Paul Elbers and Patrick Thoral and Ari Ercole and  Cheng Zhang and Danielle Belgrave and Mihaela van der Schaar},
+  title     = {Hide-and-Seek Privacy Challenge: Synthetic Data Generation vs. Patient Re-identification},
+  booktitle = {Proceedings of the NeurIPS 2020 Competition and Demonstration Track},
+  pages     = {206--215},
+  year      = {2021},
+  abstract = {The clinical  time-series setting  poses  a  unique  combination  of  challenges  to  data  modelling  and  sharing.   Due  to  the  high  dimensionality  of  clinical  time  series,  adequate  de-identification to preserve privacy while retaining data utility is difficult to achieve using common de-identification techniques.  An innovative approach to this problem is synthetic data  generation.   From  a  technical  perspective,  a  good  generative  model  for  time-series data should preserve temporal dynamics; new sequences should respect the original relationships between high-dimensional variables across time.  From the privacy perspective, the model should prevent patient re-identification.  The NeurIPS 2020 Hide-and-Seek Privacy Challenge was a novel two-tracked competition to simultaneously accelerate progress in tackling both problems.  In our head-to-head format, participants in the generation track (?hiders?) and the patient re-identification track (?seekers?) were directly pitted against each other by way of a new, high-quality intensive care time-series dataset:  the AmsterdamUMCdb dataset.  In this paper we present an overview of the competition design, as well as highlighting areas we feel should be changed for future iterations of this competition.},
+}
+
+@inproceedings{vanetten21,
+  author    = {Adam Van Etten and Daniel Hogan},
+  title     = {The SpaceNet Multi-Temporal Urban Development Challenge},
+  booktitle = {Proceedings of the NeurIPS 2020 Competition and Demonstration Track},
+  pages     = {216--232},
+  year      = {2021},
+  abstract = {Building footprints provide a useful proxy for a great many humanitarian applications.  For example, building footprints are useful for high fidelity population estimates, and quantifying population statistics is fundamental to ~1/4 of the United Nations Sustainable Development Goals Indicators.  In this paper we (the SpaceNet Partners) discuss efforts to develop techniques for precise building footprint localization, tracking, and change detection via the SpaceNet Multi-Temporal Urban Development Challenge (also known as SpaceNet 7).  In this NeurIPS 2020 competition, participants were asked identify and track buildings in satellite imagery time series collected over rapidly urbanizing areas. The competition centered around a brand new open source dataset of Planet Labs satellite imagery mosaics at 4m resolution, which includes 24 images (one per month) covering ~100 unique geographies. Tracking individual buildings at this resolution is quite challenging, yet the winning participants demonstrated impressive performance with the newly developed SpaceNet Change and Object Tracking (SCOT) metric.  This paper details the top-5 winning approaches, as well as analysis of results that yielded a handful of interesting anecdotes such as decreasing performance with latitude.},
+}
+
+@inproceedings{guss21,
+  author    = {William Hebgen Guss and Stephanie Milani and Nicholay Topin and Brandon Houghton and  Sharada Mohanty and  Andrew Melnik and  Augustin Harter and  Benoit Buschmaas and  Bjarne Jaster and  Christoph Berganski and  Dennis Heitkamp and  Marko Henning and  Helge Ritter and  Chengjie Wu and  Xiaotian Hao and  Yiming Lu and  Hangyu Mao and  Yihuan Mao and Chao Wang and  Michal Opanowicz and  Anssi Kanervisto and Yanick Schraner and Christian Scheller and Xiren Zhou and Lu Liu  and  Daichi Nishio and  Toi Tsuneda and  Karolis Ramanauskas and  Gabija Juceviciute },
+  title     = {Towards robust and domain agnostic reinforcement learning competitions: MineRL 2020},
+  booktitle = {Proceedings of the NeurIPS 2020 Competition and Demonstration Track},
+  pages     = {233--252},
+  year      = {2021},
+  abstract = {Reinforcement learning competitions have formed the basis for standard research benchmarks, galvanized advances in the state-of-the-art, and shaped the direction of the field. Despite this, a majority of challenges suffer from the same fundamental problems: participant solutions to the posed challenge are usually domain-specific, biased to maximally exploit compute resources, and not guaranteed to be reproducible. In this paper, we present a new framework of competition design that promotes the development of algorithms that overcome these barriers. We propose four central mechanisms for achieving this end: submission retraining, domain randomization, desemantization through domain obfuscation, and the limitation of competition compute and environment-sample budget. To demonstrate the efficacy of this design, we proposed, organized, and ran the MineRL 2020 Competition on Sample-Efficient Reinforcement Learning. In this work, we describe the organizational outcomes of the competition and show that the resulting participant submissions are reproducible, non-specific to the competition environment, and sample/resource efficient, despite the difficult competition task.},
+}
+
+@inproceedings{deon21,
+  author    = {Jason d'Eon and  Sri Harsha Dumpla and Chandramouli Shama Sastry and Daniel Oore and Sageev Oore},
+  title     = {Musical Speech: A Transformer-based Composition Tool},
+  booktitle = {Proceedings of the NeurIPS 2020 Competition and Demonstration Track},
+  pages     = {253--274},
+  year      = {2021},
+  abstract = {In this paper, we propose a new compositional tool that will generate a musical outline of speech recorded/provided by the user for use as a musical building block in their compositions. The tool allows any user to use their own speech to generate musical material, while still being able to hear the direct connection between their recorded speech and the resulting music. The tool is built on our proposed pipeline. This pipeline begins with speech-based signal processing, after which some simple musical heuristics are applied, and finally these pre-processed signals are passed through Transformer models trained on new musical tasks. We illustrate the effectiveness of our pipeline -- which does not require a paired dataset for training -- through examples of music created by musicians making use of our tool.},
+}
+
+@inproceedings{laurent21,
+  author    = {Florian Laurent and Manuel Schneider and Christian Scheller and  Jeremy Watson and Jiaoyang Li and  Zhe Chen and  Yi Zheng and Shao-Hung Chan and Konstantin Makhnev and Oleg Svidchenko and  Vladimir Egorov and Dmitry Ivanov and Aleksei Shpilman and  Evgenija Spirovska and Oliver Tanevski and Aleksandar Nikov and Ramon Grunder and  David Galevski and Jakov Mitrovski and Guillaume Sartoretti and Zhiyao Luo and Mehul Damani and  Nilabha Bhattacharya and Shivam Agarwal and Adrian Egli and Erik Nygren and Sharada Mohanty},
+  title     = {Flatland Competition 2020: MAPF and MARL for Efficient Train Coordination on a Grid World},
+  booktitle = {Proceedings of the NeurIPS 2020 Competition and Demonstration Track},
+  pages     = {275--301},
+  year      = {2021},
+  abstract = {The Flatland competition aimed at finding novel approaches to solve the vehicle re-scheduling problem (VRSP). The VRSP is concerned with scheduling trips in traffic networks and the re-scheduling of vehicles when disruptions occur, for example the breakdown of a vehicle. While solving the VRSP in various settings has been an active area in operations research (OR) for decades, the ever-growing complexity of modern railway networks makes dynamic real-time scheduling of traffic virtually impossible. Recently, multi-agent reinforcement learning (MARL) has successfully tackled challenging tasks where many agents need to be coordinated, such as multiplayer video games. However, the coordination of hundreds of agents in a real-life setting like a railway network remains challenging and the Flatland environment used for the competition models these real-world properties in a simplified manner. Submissions had to bring as many trains (agents) to their target stations in as little time as possible. While the best submissions were in the OR category, participants found many promising MARL approaches. Using both centralized and decentralized learning based approaches, top submissions used graph representations of the environment to construct tree-based observations. Further, different coordination mechanisms were implemented, such as communication and prioritization between agents. This paper presents the competition setup, four outstanding solutions to the competition, and a cross-comparison between them.	},
+}
+
+
+@inproceedings{agarwal21b,
+  author    = {Mayank Agarwal and  Tathagata Chakraborti and Quchen Fu and David Gros and Xi Victoria Lin and Jaron Maene and Kartik Talamadupula and Zhongwei Teng and Jules White},
+  title     = {NeurIPS 2020 NLC2CMD Competition: Translating Natural Language to Bash Commands},
+  booktitle = {Proceedings of the NeurIPS 2020 Competition and Demonstration Track},
+  pages     = {302--324},
+  year      = {2021},
+  abstract = {The NLC2CMD Competition hosted at NeurIPS 2020 aimed to bring the power of natural language processing to the command line. Participants were tasked with building models that can transform descriptions of command line tasks in English to their Bash syntax. This is a report on the competition with details of the task, metrics, data, attempted solutions, and lessons learned.},
+}
+	
+@inproceedings{kopp21,
+  author    = {Michael Kopp and David Kreil and Moritz Neun and David Jonietz and Henry Martin and Pedro Herruzo and  Aleksandra Gruca and  Ali Soleymani and  Fanyou Wu and Yang Liu and Jingwei Xu and  Jianjin Zhang and  Jay Santokhi and Alabi Bojesomo and Hasan Al Marzouqi and  Panos Liatsis and Pak Hay Kwok and  Qi Qi and Sepp Hochreiter},
+  title     = {Traffic4cast at NeurIPS 2020 ? yet more on theunreasonable effectiveness of gridded geo-spatial processes},
+  booktitle = {Proceedings of the NeurIPS 2020 Competition and Demonstration Track},
+  pages     = {325--343},
+  year      = {2021},
+  abstract = {The IARAI Traffic4cast competition at NeurIPS 2019 showed that neural networks can successfully predict future traffic conditions 15 minutes into the future on simply aggregated GPS probe data  in time and space bins, thus interpreting the challenge of forecasting traffic conditions as a movie completion task. U-nets proved to be the winning architecture then, demonstrating an ability  to extract relevant features in the complex, real-world, geo-spatial process that is traffic derived from a large data set. The IARAI Traffic4cast challenge at NeurIPS 2020 build on the insights of the previous year and sought to both challenge some assumptions inherent in our 2019 competition design and explore how far this neural network technique can be pushed. We found that the  prediction horizon can be extended successfully to 60 minutes into the future, that there is further evidence that traffic depends more on recent dynamics than on the additional static or dynamic location specific data provided and that a reasonable starting point when exploring a general aggregated geo-spatial process in time and space is a U-net architecture.},
+}
+	
+@inproceedings{kiela21,
+  author    = {Douwe Kiela and Hamed Firooz and Aravind Mohan and  Vedanuj Goswami and  Amanpreet Singh and  Casey A. Fitzpatrick and  Peter Bull and  Greg Lipstein and  Tony Nelli and  Ron Zhu and  Niklas Muennighoff and  Riza Velioglu and Jewgeni Rose and  Phillip Lippe and  Nithin Holla and Shantanu Chandra and Santhosh Rajamanickam and Georgios Antoniou and Ekaterina Shutova and  Helen Yannakoudakis and  Vlad Sandulescu and Umut Ozertem and Patrick Pantel and Lucia Specia and Devi Parikh },
+  title     = {The Hateful Memes Challenge: Competition Report},
+  booktitle = {Proceedings of the NeurIPS 2020 Competition and Demonstration Track},
+  pages     = {344--360},
+  year      = {2021},
+  abstract = {Machine learning and artificial intelligence play an ever more crucial role in mitigating important societal problems, such as the prevalence of hate speech. We describe the Hateful Memes Challenge competition, held at NeurIPS 2020, focusing on multimodal hate speech. The aim of the challenge is to facilitate further research into multimodal reasoning and understanding.},
+}
+			
+			
+@inproceedings{mohanty21,
+  author    = {Sharada Mohanty and Jyotish Poonganam and Adrien Gaidon and Andrey Kolobov and Blake Wulfe and Dipam Chakraborty and Gra\u{z}vydas \u{S}emetulskis and Jo\~{a}o Schapke and Jonas Kubilius and Jurgis Pa\"ukonis and Linas Klimas and Matthew Hausknecht and Patrick MacAlpine and Quang Nhat Tran and Thomas Tumiel and Xiaocheng Tang and Xinwei Chen and Christopher Hesse and Jacob Hilton and William Hebgen Guss and Sahika Genc and John Schulman and Karl Cobbe},
+  title     = {Measuring Sample Efficiency and Generalization in Reinforcement Learning Benchmarks: NeurIPS 2020 Procgen Benchmark},
+  booktitle = {Proceedings of the NeurIPS 2020 Competition and Demonstration Track},
+  pages     = {361--395},
+  year      = {2021},
+  abstract = {The NeurIPS 2020 Procgen Competition was designed as a centralized benchmark with clearly defined tasks for measuring Sample Efficiency and Generalization in Reinforcement Learning. Generalization remains one of the most fundamental challenges in deep reinforcement learning, and yet we do not have enough benchmarks to measure the progress of the community on Generalization in Reinforcement Learning. We present the design of a centralized benchmark for Reinforcement Learning which can help measure Sample Efficiency and Generalization in Reinforcement Learning by doing end to end evaluation of the training and rollout phases of thousands of user submitted code bases in a scalable way. We designed the benchmark on top of the already existing Procgen Benchmark by defining clear tasks and standardizing the end to end evaluation setups. The design aims to maximize the flexibility available for researchers who wish to design future iterations of such benchmarks, and yet imposes necessary practical constraints to allow for a system like this to scale. This paper presents the competition setup and the details and analysis of the top solutions identified through this setup in context of 2020 iteration of the competition at NeurIPS.},
+}
+
